@@ -15,8 +15,8 @@ export default function Hero() {
           </div>
 
           <div className="flexColStart hero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-              <span>Forget all difficulties in finding a residence for you </span>
+            <span className="secondaryText">Find a variety of properties that suit you very easilty</span>
+              <span className="secondaryText">Forget all difficulties in finding a residence for you </span>
             
           </div>
           <div className="flexCenter search-bar">
@@ -26,11 +26,23 @@ export default function Hero() {
           </div>
 
           <div className="flexCenter stats">
-            <div className="flexColStart stat">
+            <div className="flexColCenter stat">
               <span><CountUp start={8800} end={9000} duration={4}/>
               <span>+</span>
               </span>
-              <span>premium Products</span>
+              <span className="secondaryText">premium Products</span>
+            </div>
+            <div className="flexColCenter stat">
+              <span><CountUp start={1800} end={2000} duration={4}/>
+              <span>+</span>
+              </span>
+              <span  className="secondaryText">Happy Customer</span>
+            </div>
+            <div className="flexColCenter stat">
+              <span><CountUp end={20}/>
+              <span>+</span>
+              </span>
+              <span  className="secondaryText">Awards Winning</span>
             </div>
           </div>
         </div>
